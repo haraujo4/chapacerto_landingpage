@@ -1,4 +1,3 @@
-import React from 'react';
 import { Info, Database, FileText, Lock, UserCheck, ShieldAlert, Mail, RefreshCw, CheckCircle } from 'lucide-react';
 
 const Section = ({ icon: Icon, title, children }) => (
