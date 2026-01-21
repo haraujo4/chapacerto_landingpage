@@ -1,4 +1,3 @@
-import React from 'react';
 import { Box, Facebook, Instagram, Linkedin, Mail, Phone } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import Logo from '../assets/logo.png';

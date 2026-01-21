@@ -1,4 +1,3 @@
-import React from 'react';
 import { UserPlus, Search, CheckCircle2, DollarSign } from 'lucide-react';
 
 const Step = ({ number, title, text, isLight }) => (

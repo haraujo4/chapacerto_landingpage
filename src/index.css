@@ -1,9 +1,10 @@
 @import "tailwindcss";
+@source "../src";
 
 @theme {
   --color-brand-navy: #07023D;
   --color-brand-gold: #FFD700;
-  
+
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
 }
 

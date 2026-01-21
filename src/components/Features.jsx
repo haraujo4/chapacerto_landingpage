@@ -1,4 +1,3 @@
-import React from 'react';
 import { ShieldCheck, Zap, Star, MessageSquare } from 'lucide-react';
 
 const FeatureCard = (props) => {
