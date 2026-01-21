@@ -1,18 +1,10 @@
 @import "tailwindcss";
-@source "./**/*.jsx";
 
 @theme {
   --color-brand-navy: #07023D;
   --color-brand-gold: #FFD700;
 }
 
-/* Test border - Top BLUE confirms this version is live */
-body {
-  border-top: 20px solid blue !important;
-}
-
-.custom-test-red {
-  background-color: red !important;
-  height: 50px;
-  width: 100%;
+:root {
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
 }
