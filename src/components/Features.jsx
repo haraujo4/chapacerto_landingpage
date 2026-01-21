@@ -1,15 +1,18 @@
 import React from 'react';
 import { ShieldCheck, Zap, Star, MessageSquare } from 'lucide-react';
 
-const FeatureCard = ({ icon: Icon, title, description }) => (
-    <div className="p-8 rounded-3xl bg-white border border-gray-100 shadow-sm hover:shadow-xl hover:shadow-brand-navy/5 hover:-translate-y-1 transition-all">
-        <div className="w-14 h-14 bg-brand-navy/5 rounded-2xl flex items-center justify-center mb-6">
-            <Icon className="w-8 h-8 text-brand-navy" />
+const FeatureCard = (props) => {
+    const Icon = props.icon;
+    return (
+        <div className="p-8 rounded-3xl bg-white border border-gray-100 shadow-sm hover:shadow-xl hover:shadow-brand-navy/5 hover:-translate-y-1 transition-all">
+            <div className="w-14 h-14 bg-brand-navy/5 rounded-2xl flex items-center justify-center mb-6">
+                <Icon className="w-8 h-8 text-brand-navy" />
+            </div>
+            <h3 className="text-xl font-bold text-brand-navy mb-4">{props.title}</h3>
+            <p className="text-gray-600 leading-relaxed">{props.description}</p>
         </div>
-        <h3 className="text-xl font-bold text-brand-navy mb-4">{title}</h3>
-        <p className="text-gray-600 leading-relaxed">{description}</p>
-    </div>
-);
+    );
+};
 
 const Features = () => {
     const features = [
