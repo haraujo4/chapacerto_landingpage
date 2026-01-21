@@ -1,3 +1,4 @@
+import React from 'react';
 import { Box } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import Logo from '../assets/logo-full.png';

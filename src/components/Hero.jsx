@@ -1,3 +1,4 @@
+import React from 'react';
 import HeroMockup from '../assets/mockups/hero-app.png';
 import PlayStoreIcon from '../assets/play-store.png';
 

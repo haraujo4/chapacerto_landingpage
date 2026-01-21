@@ -1,3 +1,4 @@
+import React from 'react';
 import { Box, Facebook, Instagram, Linkedin, Mail, Phone } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import Logo from '../assets/logo.png';
@@ -9,11 +10,15 @@ const Footer = () => {
             <div className="container mx-auto px-4">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
                     <div className="col-span-1 lg:col-span-1">
-                        <div className="flex items-center gap-2 mb-8">
-                            <img src={Logo} alt="Chapa Certo Logo" className="h-32 w-auto" />
+                        <div className="flex items-center gap-2 mb-6">
+                            <Box className="w-8 h-8 text-brand-gold fill-brand-gold" />
+                            <span className="text-2xl font-bold text-white uppercase tracking-wider">
+                                Chapa Certo
+                            </span>
                         </div>
-                        <p className="text-gray-400 text-sm leading-relaxed mb-8">
-                            Conectando o Brasil através do trabalho sério e tecnologia de ponta na logística.
+                        <p className="text-gray-400 mb-8 leading-relaxed">
+                            Conectando profissionais e transportadoras com inteligência,
+                            segurança e agilidade em todo o Brasil.
                         </p>
                         <div className="flex gap-4">
                             <a href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-brand-gold hover:text-brand-navy transition-all">

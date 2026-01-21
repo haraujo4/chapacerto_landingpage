@@ -1,19 +1,18 @@
 @import "tailwindcss";
-@source "../src";
+@source "./**/*.jsx";
 
 @theme {
   --color-brand-navy: #07023D;
   --color-brand-gold: #FFD700;
-
-  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
 }
 
-:root {
-  font-family: var(--font-sans);
-}
-
+/* Test border - Top BLUE confirms this version is live */
 body {
-  margin: 0;
-  background-color: #F8F9FA;
-  color: #07023D;
+  border-top: 20px solid blue !important;
+}
+
+.custom-test-red {
+  background-color: red !important;
+  height: 50px;
+  width: 100%;
 }
