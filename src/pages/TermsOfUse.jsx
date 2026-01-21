@@ -1,3 +1,4 @@
+import React from 'react';
 import { Shield, Target, AlertCircle, CreditCard, Clock, XOctagon, Edit3, Mail, Gavel } from 'lucide-react';
 
 const Section = ({ icon: Icon, title, children }) => (
